@@ -1,4 +1,9 @@
 # Next.js를 이용한 포트폴리오 사이트 만들기
+[Next.js](https://nextjs.org/)   
+[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)   
+run the development server: npm run dev   
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result   
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file   
 ## Next.js를 사용하는 이유
 Next.js는 React 기반의 웹 프레임워크로, 클라이언트 측 및 서버 측 렌더링을 지원하여 웹 애플리케이션의 성능을 최적화하는 데 도움이 되는 다양한 기능을 제공합니다.   
 1. 서버 측 렌더링(SSR) 및 정적 사이트 생성 (SSG) 지원:   
@@ -19,24 +24,23 @@ Now, Vercel, Netlify 등과 같은 플랫폼과의 통합이 쉽고, 정적 사�
 웹팩 및 바벨과 같은 강력한 빌드 도구를 활용하여 최적화된 번들링 및 코드 변환을 제공합니다.   
 이러한 특장점들로 Next.js는 개발자에게 효율적이고 성능 최적화가 잘 된 웹 애플리케이션 개발을 도와주는 강력한 도구입니다.   
 ## 셋팅
-`npx create-next-app@latest`
-Ok to proceed? (y) Y
-√ What is your project named? ... .
-√ Would you like to use TypeScript? ... No / Yes    n
-√ Would you like to use ESLint? ... No / Yes    y
-√ Would you like to use Tailwind CSS? ... No / Yes  n
-√ Would you like to use `src/` directory? ... No / Yes  y
-√ Would you like to use App Router? (recommended) ... No / Yes  y
-√ Would you like to customize the default import alias (@/*)? ... No / Yes  y
-√ What import alias would you like configured? ... @/*
+`npx create-next-app@latest`   
+Ok to proceed? (y) Y   
+√ What is your project named? ... .   
+√ Would you like to use TypeScript? ... No / Yes    n   
+√ Would you like to use ESLint? ... No / Yes    y   
+√ Would you like to use Tailwind CSS? ... No / Yes  n   
+√ Would you like to use `src/` directory? ... No / Yes  y   
+√ Would you like to use App Router? (recommended) ... No / Yes  y   
+√ Would you like to customize the default import alias (@/*)? ... No / Yes  y   
+√ What import alias would you like configured? ... @/*   
+
+`npm install sass`
+`npm install @studio-freight/lenis`
+`npm install gsap`
 
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with 
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-run the development server: npm run dev
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
- automatically optimize and load Inter, a custom Google Font.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+
+
